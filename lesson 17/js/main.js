@@ -114,3 +114,4 @@ const bgBodyEl = (document.getElementsByTagName('body')[0].style.background =
 // 	.log(arr.join('|').replaceAll('2', '$'))
 // 	.split('|')
 // 	.map(e => (Number.isNaN(+e) ? e : e));
+// .........
