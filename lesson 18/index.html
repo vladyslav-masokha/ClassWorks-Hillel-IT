@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lesson 18</title>
+		<!-- SCRIPTS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/faker@5.5.3/dist/faker.min.js"
+			defer
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/gh/vladbash/hillel-helpers@master/src/students/script.js"
+			defer
+		></script>
+		<script src="./js/main.js" defer></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<input type="text" id="todo-value" />
+		<button id="add-more">Add item</button>
+		<ul id="demo-list"></ul>
+
+		<ul id="students-list"></ul>
+
+		<script type="text/template" id="student-item-template">
+			<li>
+				<div class="student-item">
+					<img src="{{avatarUrl}}" alt="" class="student-avatar">
+					<span class="student-name"></span>
+					<b class="student-spec"></b>
+				</div>
+			</li>
+		</script>
+
+		<!-- <script type="text/template" id="todo-item-template">
+			<div>
+				<input type='checkbox' />
+			</div>
+			<div>
+				<span>#{{orderNumber}}</span>
+				<span>{{todoItemText}}</span>
+			</div>
+			<button>Delete</button>
+		</script> -->
+	</body>
+</html>
